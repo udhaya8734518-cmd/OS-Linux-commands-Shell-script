@@ -48,7 +48,7 @@ cat < file1
 
 cat < file2
 ## OUTPUT
-
+![one](./img/file2.png)
 
 # Comparing Files
 cmp file1 file2
