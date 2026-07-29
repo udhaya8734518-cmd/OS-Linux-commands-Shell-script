@@ -143,7 +143,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![one](./img/15.png)
 
 cat < newfile 
 ```
@@ -166,60 +166,60 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
+![one](./img/16.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+![one](./img/17.png)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
+![one](./img/18.png)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+![one](./img/19.png)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+![one](./img/20.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![one](./img/21.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
+![one](./img/22.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+![one](./img/23.png)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![one](./img/24.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![one](./img/25)
 
 egrep l{2} newfile
 ## OUTPUT
-
+![one](./img/26.png)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![one](./img/27.png)
 
 cat > file23
 ```
@@ -237,76 +237,76 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
+![one](./img/28.png)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-
+![one](./img/29.png)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
+![one](./img/30.png)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
+![one](./img/31.png)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+![one](./img/32.png)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
+![one](./img/33.png)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
+![one](./img/34.png)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+![one](./img/35.png)
 
 
 seq 10 
 ## OUTPUT
-
+![one](./img/36.png)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
+![one](./img/37.png)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
+![one](./img/38.png)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
+![one](./img/39.png)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+![one](./img/40.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![one](./img/41.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
+![one](./img/42.png)
 
 
 sed -n '2,4{s/$/*/;p}' file23
@@ -323,7 +323,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![one](./img/43.png)
 
 cat > file22
 ```
@@ -336,14 +336,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![one](./img/44.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-
+![one](./img/45.png)
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -359,18 +359,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![one](./img/46.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![one](./img/47.png)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![one](./img/48.png)
 
 mkdir backupdir
  
@@ -380,7 +380,7 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
+![one](./img/49.png)
 
 tar -xvf backup.tar
 ## OUTPUT
